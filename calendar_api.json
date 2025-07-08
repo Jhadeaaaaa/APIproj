@@ -1,0 +1,12 @@
+{
+  // Name of the API
+  "api": "Nager.Date Public Holidays",
+  // Description of what the API provides
+  "description": "Provides public holiday data for many countries. No API key required.",
+  // Indicates if an API key is needed
+  "apiKeyRequired": false,
+  // The endpoint format for fetching holidays
+  "endpoint": "https://date.nager.at/api/v3/PublicHolidays/{year}/{country}",
+  // Example request for holidays in the Philippines for 2025
+  "requestExample": "https://date.nager.at/api/v3/PublicHolidays/2025/PH"
+}

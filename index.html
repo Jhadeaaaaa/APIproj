@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Holidays Calendar API Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Main heading for the app -->
+        <h1>Public Holidays </h1>
+        <div>
+            <!-- Country selection dropdown -->
+            <label for="country">Country:</label>
+            <select id="country">
+                <option value="US">United States</option>
+                <option value="GB">United Kingdom</option>
+                <option value="CA">Canada</option>
+                <option value="DE">Germany</option>
+                <option value="FR">France</option>
+                <option value="IN">India</option>
+                <option value="JP">Japan</option>
+                <option value="AU">Australia</option>
+                <option value="PH">Philippines</option>
+            </select>
+            <!-- Year input field -->
+            <label for="year">Year:</label>
+            <input type="number" id="year" value="2025" min="2000" max="2100" style="width:80px;">
+            <!-- Button to fetch holidays -->
+            <button id="getHolidaysBtn">Get Holidays</button>
+        </div>
+        <!-- Area where holidays will be displayed -->
+        <div id="holidaysList">Select a country and year, then click "Get Holidays".</div>
+    </div>
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
