@@ -2,8 +2,7 @@
   // Name of the API
   "api": "Nager.Date Public Holidays",
   // Description of what the API provides
-  "description": "Provides public holiday data for many countries. No API key required.",
-  // Indicates if an API key is needed
+  "description": "public holiday data for many countries.",
   "apiKeyRequired": false,
   // The endpoint format for fetching holidays
   "endpoint": "https://date.nager.at/api/v3/PublicHolidays/{year}/{country}",
