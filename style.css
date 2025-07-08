@@ -1,28 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-.container {
-    background: #fff;
-    padding: 2rem 3rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    text-align: center;
-}
-select, button {
-    padding: 0.5rem 1rem;abody {
-    font-family: Arial, sans-serif;
     background: #D7D7D7;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 .container {
     background: #fff;
@@ -31,6 +15,8 @@ select, button {
     box-shadow: 0 2px 8px rgba(39,63,79,0.08);
     text-align: center;
     border: 2px solid #447D9B;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 select, button {
     padding: 0.5rem 1rem;
@@ -50,55 +36,6 @@ button {
 }
 button:hover {
     background: #447D9B;
-}
-#holidaysList {
-    margin-top: 1.5rem;
-    text-align: left;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#holidaysList ul {
-    padding-left: 1.2rem;
-}
-#holidaysList li {
-    margin-bottom: 0.5rem;
-}
-#catFact {
-    font-size: 1.2rem;
-    color: #273F4F;
-    margin-top: 1rem;
-}
-#holidaysList table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1.5rem;
-}
-#holidaysList th, #holidaysList td {
-    border: 1px solid #447D9B;
-    padding: 0.5rem;
-    text-align: left;
-}
-#holidaysList th {
-    background: #273F4F;
-    color: #FE7743;
-}
-#holidaysList tr:nth-child(even) {
-    background: #f2f2f2;
-}
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 0.5rem;
-}
-button {
-    background: #1976d2;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-button:hover {
-    background: #1565c0;
 }
 #holidaysList {
     margin-top: 1.5rem;
